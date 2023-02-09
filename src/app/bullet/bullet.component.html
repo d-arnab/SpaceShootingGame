@@ -1,0 +1,1 @@
+<div #shootBall class="dot dot-position" [@slideInOut]=currentState  (@slideInOut.start)="onAnimationStartEvent($event)" (@slideInOut.done)='onAnimationDoneEvent($event)' [style.left]="leftPosition" ></div>
